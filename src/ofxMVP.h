@@ -37,6 +37,10 @@ class MVP {
 	
 		vector <float> left;
 		vector <float> right;
+		vector <float> leftavg;
+
+    unsigned int bufferCounter;
+    bool newSound;
 	
     MVP();
     private:
