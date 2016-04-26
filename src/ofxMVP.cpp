@@ -24,7 +24,7 @@ void MVP::setup(ofBaseApp * app){
     knob1=knob2=knob3=knob4=knob5=knob6=knob7=knob8=.5;
 
     // 0 out, 2 in, sr, buf size, latency (bufs)
-	soundStream.setup(app, 0, 2, 11025, bufferSize, 4);
+	soundStream.setup(app, 0, 2, 11025, bufferSize, 2);
 
 }
 
