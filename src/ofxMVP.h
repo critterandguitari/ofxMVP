@@ -41,6 +41,13 @@ class MVP {
 
     unsigned int bufferCounter;
     bool newSound;
+			
+	int 				snapCounter;
+	string 				snapString;
+	ofImage 			img;
+	
+    float smoothedVol;
+    float scaledVol;
 	
     MVP();
     private:
